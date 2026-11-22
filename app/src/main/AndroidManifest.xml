@@ -5,13 +5,12 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:allowBackup="false"
         android:label="Carevix"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
-        android:usesCleartextTraffic="false">
+        android:allowBackup="false"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.carevix.app.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -20,6 +19,6 @@
             </intent-filter>
 
         </activity>
-    </application>
 
+    </application>
 </manifest>
